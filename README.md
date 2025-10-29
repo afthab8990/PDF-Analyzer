@@ -29,6 +29,8 @@ This is a FastAPI + LangChain-based project that allows users to upload PDF docu
 
 ### How to run
 
+##Beforehand make sure to add the api keys in the .env file
+
 on the terminal enable the virtual enviroment using 
 ```bash
 env/Scripts/activate
