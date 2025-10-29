@@ -27,16 +27,22 @@ This is a FastAPI + LangChain-based project that allows users to upload PDF docu
 
 ---
 
-## 📁 Folder Structure
+### How to run
 
-├── main.py # FastAPI backend with agent and retriever logic
-├── requirements.txt # Python dependencies
-├── uploads/ # PDF upload directory
-└── README.md # Project documentation
+on the terminal enable the virtual enviroment using 
+```bash
+env/Scripts/activate
+```
+Then open the pdf_agent directory and run
+```bash
+uvicorn tester:app --reload    
+```
 
-yaml
-Copy
-Edit
+Open terminal in the bot-app folder and run
+```bash
+npm install
+npm run dev
+```
 
 ---
 
@@ -47,3 +53,7 @@ Edit
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+```
+
+
